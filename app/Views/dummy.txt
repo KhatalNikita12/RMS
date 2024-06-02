@@ -1,0 +1,30 @@
+  <?php 
+// Connect to PostgreSQL
+$con = pg_connect("host=localhost port=5432 dbname=demo1 user=postgres password=123");
+
+// Check if connection was successful
+if (!$con) {
+    // Handle connection error
+    die("Connection failed: " . pg_last_error());
+}
+
+// Execute the query
+$query = pg_query($con, "SELECT chefid FROM chefs ");
+
+// Check if query was successful
+if (!$query) {
+    // Handle query error
+    die("Query failed: " . pg_last_error());
+}
+
+// Fetch the number of rows
+$subadmincount = pg_num_rows($query);
+
+// Close the connection
+pg_close($con);
+?>
+
+
+<a href="<?php echo site_url('/user-form') ?>" class="btn btn-success m-2">Add Food Item</a>
+ <a href="<?php echo site_url('/customer-form') ?>" class="btn btn-success m-2">Add Customer</a>
+ <?= $this->include('navbar') ?>
