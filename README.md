@@ -1,3 +1,35 @@
+# Restaurant Management System 🍽️
+
+This project is a **dynamic web-based Restaurant Management System** developed using **HTML, CSS, JavaScript, AJAX, jQuery, and CodeIgniter 4**. The system is designed to help restaurant owners manage their menu and food items efficiently.
+
+## 🚀 Features
+
+- Admin login/dashboard
+- Add, edit, delete food items
+- Upload food item images
+- Categorize menu items
+- Responsive UI for smooth experience
+- Dynamic content updates using AJAX and jQuery
+- Built on CodeIgniter 4 MVC framework
+
+## 👩‍💻 Tech Stack
+
+- **Frontend**: HTML, CSS, JavaScript, AJAX, jQuery  
+- **Backend**: PHP with CodeIgniter 4  
+- **Database**: MySQL (or any supported by CI4)
+
+## 📌 Purpose
+
+This project aims to simplify the daily operations of a restaurant by providing an easy-to-use system where owners can keep their menu up to date with images and descriptions.
+
+
+
+## 🙌 Author
+
+- **Nikita Khatal** – [[LinkedIn](#)](https://www.linkedin.com/in/nikita-khatal-57a2a42ba/) )
+
+
+
 # CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?
